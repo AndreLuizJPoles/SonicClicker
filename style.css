@@ -44,6 +44,7 @@ body{
 .icon{
     width: 2rem;
     height: 2rem;
+    margin: 1rem;
 }
 
 #upgradeGroup{
@@ -56,8 +57,14 @@ body{
     display: flex;
     border: 2px white solid;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     cursor: pointer;
     margin-bottom: 0.5rem;
+    min-height: 5rem;
+}
+
+.upgradeBox p, h3, h4, .icon{
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
