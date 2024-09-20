@@ -7,6 +7,10 @@ setInterval(() => {
     currentRings += tailsValue;
     totalRings += tailsValue;
     updateRingCount();
+    if(totalRings >= 1000){
+        const tails = document.getElementById('tails');
+        tails.style.display = 'flex';
+    }
 },1000);
 
 function clickOnBadnik(){
