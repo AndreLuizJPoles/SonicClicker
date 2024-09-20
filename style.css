@@ -1,0 +1,41 @@
+body{
+    background-image: url('./imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container{
+    display: flex;
+}
+
+.box{
+    width: 45%;
+    background-color: rgb(136, 49, 49);
+    border-radius: 20px;
+    border: 5px green solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#badnik{
+    width: 20rem;
+    margin: 1rem;
+}
+
+#ringsCounterGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
