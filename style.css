@@ -11,6 +11,7 @@ body{
 
 #container{
     display: flex;
+    justify-content: space-between;
 }
 
 .box{
@@ -18,15 +19,20 @@ body{
     background-color: rgb(136, 49, 49);
     border-radius: 20px;
     border: 5px green solid;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+#clickerBox{
+    height: 25rem;
 }
 
 #badnik{
     width: 20rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 #ringsCounterGroup{
@@ -38,4 +44,20 @@ body{
 .icon{
     width: 2rem;
     height: 2rem;
+}
+
+#upgradeGroup{
+    max-height: 30rem;
+    overflow-y: scroll;
+}
+
+.upgradeBox{
+    width: 90%;
+    display: flex;
+    border: 2px white solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
 }

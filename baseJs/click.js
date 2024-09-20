@@ -12,3 +12,11 @@ function updateRingCount(){
     const objRingsCounter = document.getElementById('ringsCounter');
     objRingsCounter.innerHTML = `${currentRings} Rings`;
 }
+
+function spinDashUpgrade(){
+    if(currentRings >= 100){
+        currentRings-=100;
+        clickValue++;
+        updateRingCount();
+    }
+}
