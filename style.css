@@ -47,12 +47,12 @@ body{
     margin: 1rem;
 }
 
-#upgradeGroup{
+#abilityGroup{
     max-height: 30rem;
     overflow-y: scroll;
 }
 
-.upgradeBox{
+.abilityBox{
     width: 90%;
     display: flex;
     border: 2px white solid;
@@ -64,7 +64,7 @@ body{
     min-height: 5rem;
 }
 
-.upgradeBox p, h3, h4, .icon{
+.abilityBox p, h3, h4, .icon{
     margin-right: 1rem;
     margin-left: 1rem;
 }
