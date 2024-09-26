@@ -11,7 +11,7 @@ class Ability {
     }
 
     produce() {
-        let aux = calcProductionValue();
+        let aux = this.calcProductionValue();
         this.totalProduced += aux;
         return aux;
     }
@@ -30,7 +30,7 @@ class Ability {
     createHtml(parent) {
         const abilityBox = document.createElement('div');
         abilityBox.classList.add('abilityBox');
-        abilityBox.setAttribute('onclick', 'buyNewAbility()');
+        abilityBox.id = this.name;
 
         const img = document.createElement('img');
         img.src = this.imageURL;
